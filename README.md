@@ -1,4 +1,4 @@
-# Issue
+# Issue: throwing 400 in client action throws as 500
 
 ```
 npm i
