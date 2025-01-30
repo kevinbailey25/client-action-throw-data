@@ -17,4 +17,4 @@ throw data({ wow: true }, { status: 400 })
 
 I've added a `console.log(error)` in the error boundary.
 
-View each error in the console, you'll note that all of them are 400 errors, except the `clientAction` is a 500 error, where the `data` is the full `DataWithResponseInit<{ wow: boolean; }>` instead of the `ErrorResponseImpl` like the others
+View each error in the console, you'll note that all of them are 400 errors, except the `clientAction` is a 500 error, where the `data` is the full `DataWithResponseInit<{ wow: boolean; }>` instead of just `{ wow: boolean }`
